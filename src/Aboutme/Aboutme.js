@@ -12,7 +12,7 @@ class Aboutme extends React.Component {
               <h1>About Me</h1>
             </div>
             <div className="col">
-              <p>
+              <p style={{color:"black"}}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
                 quaerat dicta, eveniet nisi fuga quod accusantium voluptatum
                 repudiandae numquam quos modi inventore! Enim hic eum earum

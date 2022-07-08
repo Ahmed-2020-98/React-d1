@@ -1,0 +1,39 @@
+.portfolio h1{
+    font-family: 'Raleway', sans-serif;
+}
+.cards{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: grid;
+    gap: 30px 0;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+
+}
+.cardd{
+    width: 300px;
+    height: 200px;
+    background: #45C6E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 17px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Shadows Into Light', cursive;
+}
+.ftra{
+    background: #D5578De8;
+
+}
+
+@media screen and (max-width: 569px) {
+    .cards{
+        grid-template-columns: auto auto ;
+    }
+}
+@media screen and (max-width: 430px) {
+    .cards{
+        grid-template-columns: auto  ;
+    }
+}

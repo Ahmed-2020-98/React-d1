@@ -1,0 +1,26 @@
+
+
+.skills{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.skills h1,p,ul{
+color: #fff;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+.sk{
+    width: 80%;
+}
+@media screen and (max-width: 460px) {
+    .sk{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
